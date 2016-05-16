@@ -583,6 +583,7 @@ hr.divider-short {
 	font-size: 18.5px;
 	font-weight: 400;
 	margin: 0 0 15px;
+	line-height: 30px;
 }
 /* Box */
 .box {
