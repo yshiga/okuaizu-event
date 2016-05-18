@@ -44,6 +44,15 @@ sup {
 	padding: 0 0 0 1px;
 	text-transform: none;
 }
+.mg-60{
+	margin: 60px 0;
+}
+.pc-show{
+	display: block;
+}
+.sp-show{
+	display: none;	
+}
 /* Buttons */
 .btn {
 	border: none;
@@ -1888,37 +1897,43 @@ a.instagram:hover {
 }
 /* 480px */
 @media (max-width: 480px) {
- .jumbotron {
- height: 375px;
- padding-top: 165px;
-}
- .jumbotron h1 {
- font-size: 62px;
- margin: 10px 0 15px;
-}
-.jumbotron h3 {
- font-size: 32px;
- line-height: 1;
-}
-.hero-unit > h1 {
- font-size: 50px;
- line-height: 1.1;
-}
-.hero-unit > h2 {
- font-size: 45px;
-}
-.carouselslider {
- margin: 0 auto;
- width: 400px;
-}
-.span12 .item-6 li, .span12 .item-5 li, .span12 .item-4 li, .span12 .item-3 li, .span12 .item-2 li, .span12 .item-1 li, .span6 .item-6 li, .span6 .item-5 li, .span6 .item-4 li, .span6 .item-3 li, .span6 .item-2 li, .span6 .item-1 li {
- width: 400px !important;
-}
-.span12 .item-6 li .item .photo-wrap, .span6 .item-3 li .item .photo-wrap, .span12 .item-5 li .item .photo-wrap, .span6 .item-2 li .item .photo-wrap, .span12 .item-4 li .item .photo-wrap, .span6 .item-1 li .item .photo-wrap, .span12 .item-3 li .item .photo-wrap, .span12 .item-2 li .item .photo-wrap, .span12 .item-1 li .item .photo-wrap {
- height: 300px;
- padding: 20px 50px 0;
- width: 300px;
-}
+	.pc-show{
+		display: none;
+	}
+	.sp-show{
+		display: block;	
+	}
+	 .jumbotron {
+	 height: 375px;
+	 padding-top: 165px;
+	}
+	 .jumbotron h1 {
+	 font-size: 62px;
+	 margin: 10px 0 15px;
+	}
+	.jumbotron h3 {
+	 font-size: 32px;
+	 line-height: 1;
+	}
+	.hero-unit > h1 {
+	 font-size: 50px;
+	 line-height: 1.1;
+	}
+	.hero-unit > h2 {
+	 font-size: 45px;
+	}
+	.carouselslider {
+	 margin: 0 auto;
+	 width: 400px;
+	}
+	.span12 .item-6 li, .span12 .item-5 li, .span12 .item-4 li, .span12 .item-3 li, .span12 .item-2 li, .span12 .item-1 li, .span6 .item-6 li, .span6 .item-5 li, .span6 .item-4 li, .span6 .item-3 li, .span6 .item-2 li, .span6 .item-1 li {
+	 width: 400px !important;
+	}
+	.span12 .item-6 li .item .photo-wrap, .span6 .item-3 li .item .photo-wrap, .span12 .item-5 li .item .photo-wrap, .span6 .item-2 li .item .photo-wrap, .span12 .item-4 li .item .photo-wrap, .span6 .item-1 li .item .photo-wrap, .span12 .item-3 li .item .photo-wrap, .span12 .item-2 li .item .photo-wrap, .span12 .item-1 li .item .photo-wrap {
+	 height: 300px;
+	 padding: 20px 50px 0;
+	 width: 300px;
+	}
 }
  @media only screen and (max-width: 459px) {
 .navbar .btn-navbar {
