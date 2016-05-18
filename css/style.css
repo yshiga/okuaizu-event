@@ -34,7 +34,7 @@ h1, h2 {
 	font-family: 'Roboto Slab Bold';
 	font-weight: bold;
 	line-height: 40px;
-	margin: 5px 0 20px;
+	margin: 5px 0 45px;
 	text-rendering: optimizelegibility;
 }
 ul {
@@ -395,7 +395,7 @@ nav select {
 	padding: 0;
 }
 #about, #register, #speakers, #schedule, #workshops, #venue, #sponsors, #news, #twitter-feed, #contact, #newsletter {
-	padding: 100px 0 150px;
+	padding: 75px 0 75px;
 	-webkit-box-shadow: 0 5px 0 rgba(30, 38, 44, 0.2) inset;
 	-moz-box-shadow: 0 5px 0 rgba(30, 38, 44, 0.2) inset;
 	box-shadow: 0 5px 0 rgba(30, 38, 44, 0.2) inset;
@@ -573,7 +573,7 @@ hr.divider-short {
 .hero-unit > h1, .hero-unit > h2 {
 	letter-spacing: 0;
 	line-height: 1;
-	margin: 0 0 20px;
+	margin: 0 0 45px;
 }
 .hero-unit > h2 {
 	color: inherit;
@@ -1875,6 +1875,9 @@ a.instagram:hover {
 @media (max-width: 767px) {
  body {
  padding: 0 !important;
+}
+.pad-b-60{
+	padding-bottom: 60px!important;
 }
  [class*="span"], .uneditable-input[class*="span"], .row-fluid [class*="span"] {
  padding: 0 10px;
